@@ -1,0 +1,229 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #0f172a; 
+  color: #e2e8f0;            
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1rem;
+}
+.container {
+  max-width: 650px;
+  width: 100%;
+  justify-content: center;
+  padding: 2rem 21rem;
+}
+header {
+  border-bottom: 1px solid #334155;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.subtitle {
+  color: #38bdf8; 
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0.2rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+h2 {
+  font-size: 1.2rem;
+  color: #f1f5f9;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin-top: 0.5rem;
+}
+.tag {
+  background-color: #1e293b;
+  color: #38bdf8;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  border: 1px solid #334155;
+}
+.Buscame{
+  text-align: center;
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+.Buscame h3 {
+  font-size: 1rem;
+  color: #f1f5f9;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #38bdf8;
+  color: #0f172a;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+/* --- contacto --- */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.menu {
+  background-color: #1e293b;
+  border-bottom: 1px solid #334155;
+  width: 100%;
+  padding: 1rem 0;
+}
+.menu-contenido {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #38bdf8;
+}
+
+.enlaces {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.enlaces a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.enlaces a:hover,
+.enlaces a.activo {
+  color: #38bdf8;
+}
+
+
+.principal {
+  max-width: 700px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.titulo-principal {
+  border-bottom: 1px solid #334155;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+.subtitulo {
+  color: #38bdf8;
+  font-size: 0.95rem;
+}
+
+.caja {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+label {
+  font-size: 0.9rem;
+  color: #e2e8f0;
+  font-weight: 500;
+}
+
+input, select, textarea {
+  width: 100%;
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  color: #f1f5f9;
+  padding: 0.7rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.boton {
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.boton:hover {
+  background-color: #0da039;
+}
+
+
+footer, .pie {
+  background-color: #1e293b;
+  border-top: 1px solid #334155;
+  text-align: center;
+  padding: 1.2rem 0;
+  font-size: 0.85rem;
+  color: #64748b;
+  width: 100%;
+  margin-top: auto;
+}
